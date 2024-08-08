@@ -1,0 +1,13 @@
+Create local folder structure:
+
+C:\document
+C:\document\edex_project
+
+C:\document\edex_data\elastic_search
+C:\document\edex_data\elastic_search\events_formatted
+C:\document\edex_data\elastic_search\events_raw
+C:\document\edex_data\elastic_search\imported
+
+C:\document\edex_data\export
+C:\document\edex_data\export\member-guid-map
+C:\document\edex_data\export\member-segmentation

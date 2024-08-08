@@ -1,0 +1,37 @@
+drop table if exists els.events;
+CREATE TABLE els.events (
+  id varchar(50) NOT NULL,
+  event_index char(36) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL DEFAULT '',
+  event_date date NOT NULL,
+  event_timestamp timestamp NULL DEFAULT NULL,
+  memberId char(36) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
+  siteID varchar(100) DEFAULT NULL,
+  event varchar(100) DEFAULT NULL,
+  eventLevel varchar(100) DEFAULT NULL,
+  points bigint DEFAULT NULL,
+  badgeID varchar(100) DEFAULT NULL,
+  entityType varchar(100) DEFAULT NULL,
+  entityID varchar(100) DEFAULT NULL,
+  rating double DEFAULT NULL,
+  resourceID varchar(100) DEFAULT NULL,
+  courseID varchar(100) DEFAULT NULL,
+  workshopID varchar(100) DEFAULT NULL,
+  discussionID varchar(100) DEFAULT NULL,
+  syllabusID varchar(100) DEFAULT NULL,
+  staticPageID varchar(100) DEFAULT NULL,
+  assignmentID varchar(100) DEFAULT NULL,
+  commentID varchar(100) DEFAULT NULL,
+  guest_flag int DEFAULT NULL,
+  search_content varchar(100) DEFAULT NULL,
+  search_subject varchar(900) DEFAULT NULL,
+  search_age varchar(500) DEFAULT NULL,
+  search_query varchar(1000) DEFAULT NULL,
+  search_type varchar(100) DEFAULT NULL,
+  search_product varchar(900) DEFAULT NULL,
+  sessionID varchar(120) DEFAULT NULL,
+  events int DEFAULT NULL,
+  PRIMARY KEY (id,event_date),
+  UNIQUE KEY id_UNIQUE (id,event_date)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='    '
+
+-- CREATE INDEX INDX_EVENT_DATE ON els.events(event_date);

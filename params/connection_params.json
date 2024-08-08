@@ -1,0 +1,52 @@
+{
+    "local_host": "XXXX",
+    "local_user": "XXXX",
+    "local_pass": "XXXX",
+    "local_port": XXXX,
+
+    "ra_local_host": "XXXX",
+    "ra_local_user": "XXXX",
+    "ra_local_pass": "XXXX",
+    "ra_local_port": XXXX,
+
+    "edex_mypkey_path": "XXXX",
+    "edex_rds_hostname": "XXXX",
+    "edex_sql_hostname": "XXXX",
+    "edex_sql_username": "XXXX",
+    "edex_sql_password": "XXXX",
+    "edex_sql_main_database": "XXXX",
+    "edex_sql_port": XXXX,
+    "edex_ssh_host": "XXXX",
+    "edex_ssh_user": "XXXX",
+    "edex_ssh_port": XXXX,
+
+    "hadoop_host": "XXXX",
+    "hadoop_port": XXXX,
+    "hadoop_http_scheme": "XXXX",
+    "hadoop_catalog": "XXXX",
+    "hadoop_schema": "XXXX",
+    "hadoop_username": "XXXX",
+    "hadoop_password": "XXXX",
+
+    "databricks_prod_server_hostname": "XXXX",
+    "databricks_prod_cluster_path": "XXXX",
+    "databricks_prod_cluster_path_1": "XXXX",
+    "databricks_prod_cluster_path_2": "XXXX",
+    "databricks_prod_sql_warehouse_path": "XXXX",
+    "databricks_prod_token": "XXXX",
+
+    "fullstory_token": "XXXX",
+    "fullstory_visitors_us_file_path": "XXXX",
+    "fullstory_visitors_row_file_path": "XXXX",
+    "fullstory_visitors_us_page_details_path": "XXXX",
+    "fullstory_visitors_row_page_details_path": "XXXX",
+
+    "core_path": "XXXX",
+    "es_path": "XXXX",
+    "member_segementation_file_export_path": "XXXX",
+
+    "ra_schema": "XXXX",
+    "edx_schema": "XXXX",
+    "hdp_schema": "XXXX",
+    "els_schema": "XXXX"
+}

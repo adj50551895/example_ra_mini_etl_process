@@ -1,0 +1,16 @@
+select cm.id,
+       cm.parentCommentID,
+       cm.siteID,
+       cm.comment,
+       cm.entityID,
+       cm.entityType,
+       cm.ratings,
+       cm.subscribed,
+       cm.bestAnswer,
+       cm.status,
+       cm.createdAt,
+       cm.createdBy,
+       cm.updatedAt,
+       cm.updatedBy,
+       cm.requestID
+from edex_comments.Comment cm;

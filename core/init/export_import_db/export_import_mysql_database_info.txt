@@ -1,0 +1,17 @@
+## # 29.01.2023
+## # Export, Import Mysql databse
+
+# Export
+# set path: C:\Program Files\MySQL\MySQL Server 8.0\bin
+command prompt (as Administrator)
+cd c:\Tmp
+mysqldump -u root -p hdp > edex_hdp_db_20220129.sql
+mysqldump -u root -p edx > edex_edx_db_20220129.sql
+mysqldump -u root -p els > edex_els_db_20220129.sql
+
+
+# Import
+mysql> use edx
+Database changed
+mysql> source C:/Users/wolf1/Desktop/Adobe/EdEx_db/edex_edx_db_20220129.sql;
+

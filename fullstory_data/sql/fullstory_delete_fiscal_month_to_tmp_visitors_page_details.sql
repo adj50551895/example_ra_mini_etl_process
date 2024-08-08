@@ -1,0 +1,1 @@
+delete from ra.fullstory_tmp_visitors_page_details_fiscal_month;

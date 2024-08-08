@@ -1,0 +1,51 @@
+1.) Register to https://github.com/ with nowvertical email address
+e.g. username: aleksandardjuricic
+
+
+2.) Download apps to local computer
+2.1 git: https://git-scm.com/download/win 64-bit
+2.2 sourcetree: https://sourcetreeapp.com/?v=win
+2.3 winmerge: https://winmerge.org/downloads/?lang=en
+
+
+3.) Create folder structure on the local hard drive:
+C:\document
+C:\document\edex_project
+
+C:\document\edex_data\elastic_search
+C:\document\edex_data\elastic_search\events_formatted
+C:\document\edex_data\elastic_search\events_raw
+C:\document\edex_data\elastic_search\imported
+
+C:\document\edex_data\export
+C:\document\edex_data\export\member-guid-map
+C:\document\edex_data\export\member-segmentation
+
+
+4.) Install git from 2.1 on default location
+
+
+5.) Run Git Bash and run line below:
+git config --global user.name "aleksandardjuricic"
+
+to check config type:
+git config --global user.name
+
+to logout from Git Bash type: exit
+
+
+6.) Install sourcetree from 2.2
+
+
+7.) Install winmerge from 2.3
+
+
+8.) Run Sourcetree
+- go to Settings button on the right and add 
+URL/Path https://github.com/aleksandardjuricic/edex_project 
+Username: your username (e.g. aleksandardjuricic)
+
+- From menu, select Tools, Options
+-- General tab, check full name (Aleksandar Djuricic) and email address (aleksandar.djuricic@nowvertical.com)
+-- Diff tab, change "External Diff Tool" to WinMerge. To "Diff command" enter the path to WinMerge instalation (e.g. C:\opt\WinMerge\WinMergeU.exe)
+-- Check Authentification tab

@@ -1,0 +1,26 @@
+{
+    "edex_source_academic_level_codes": "XXXX\\core\\sql\\source-tables\\edex_source_academic_level_codes.sql",
+    "edex_source_course": "XXXX\\core\\sql\\source-tables\\edex_source_course.sql",
+    "edex_source_enrollment": "XXXX\\core\\sql\\source-tables\\edex_source_enrollment.sql",
+    "edex_source_member": "XXXX\\core\\sql\\source-tables\\edex_source_member.sql",
+    "edex_source_resource": "XXXX\\core\\sql\\source-tables\\edex_source_resource.sql",
+    "edex_source_school_type": "XXXX\\core\\sql\\source-tables\\edex_source_school_type.sql",
+    "edex_static_page": "XXXX\\core\\sql\\source-tables\\edex_source_static_page.sql",
+    "edex_rating": "XXXX\\core\\sql\\source-tables\\edex_source_rating.sql",
+    "edex_favorite": "XXXX\\core\\sql\\source-tables\\edex_source_favorite.sql",
+    "edex_play_list": "XXXX\\core\\sql\\source-tables\\edex_source_play_list.sql",
+    "edex_play_list_item": "XXXX\\core\\sql\\source-tables\\edex_source_play_list_item.sql",
+    "edex_source_member_to_badge": "XXXX\\core\\sql\\source-tables\\edex_source_member_to_badge.sql",
+    "edex_source_subject": "XXXX\\core\\sql\\source-tables\\edex_source_subject.sql",
+    "edex_source_product": "XXXX\\core\\sql\\source-tables\\edex_source_product.sql",
+    "edex_source_comment": "XXXX\\core\\sql\\source-tables\\edex_source_comment.sql",
+    "edex_source_discussion": "XXXX\\core\\sql\\source-tables\\edex_source_discussion.sql",
+
+    "hadoop_source_edex_member_segmentation_extract": "XXXX\\core\\sql\\source-tables\\hadoop_source_edex_member_segmentation_extract.sql",
+    "hadoop_enterprise_dim_org_education": "XXXX\\core\\sql\\source-tables\\hadoop_enterprise_dim_org_education.sql",
+    "hadoop_source_enterprise_member_license_delegation": "XXXX\\core\\sql\\source-tables\\hadoop_source_enterprise_member_license_delegation.sql",
+    
+    "databricks_enterprise_dim_org_education": "XXXX\\core\\sql\\source-tables\\databricks_enterprise_dim_org_education.sql",
+    "databricks_edex_member_segmentation_extract": "XXXX\\core\\sql\\source-tables\\databricks_source_edex_member_segmentation_extract.sql",
+    "databricks_enterprise_member_license_delegation": "XXXX\\core\\sql\\source-tables\\databricks_source_enterprise_member_license_delegation.sql"
+}

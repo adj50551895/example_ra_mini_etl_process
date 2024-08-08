@@ -1,0 +1,30 @@
+{
+    "process_member_segmentation_table_sql_file": "XXXX\\member_segmentation\\sql\\process_member_segmentation_table.sql",
+    "process_daily_edexmembersegmentation_table": "XXXX\\member_segmentation\\sql\\process_daily_edexmembersegmentation_table.sql",
+
+    "hadoop_test_data": "XXXX\\sql\\query\\test_hadoop_query.sql",
+
+    "stage_edex_express_dates": "XXXX\\core\\sql\\stage-tables\\stg_edex_express_dates.sql",
+    "stage_events_acquisition_content": "XXXX\\core\\sql\\stage-tables\\stg_events_acquisition_content.sql",
+    "stage_member_first_time_content_acquisition": "XXXX\\core\\sql\\stage-tables\\stg_member_first_time_content_acquisition.sql",
+
+    "rpt_content_detail_courses": "XXXX\\rpt_content_detail\\content_detail_courses.sql",
+    "rpt_content_detail_courses_final": "XXXX\\rpt_content_detail\\content_detail_courses_final_table.sql",
+    "rpt_content_detail_tr_final": "XXXX\\rpt_content_detail\\content_detail_teaching_resources_final_table.sql",
+
+    "rpt_dashboard_fy": "XXXX\\rpt_dashboard\\rpt_dashboard_fy.sql",
+    "rpt_dashboard_fy_final_table": "XXXX\\rpt_dashboard\\dashboard_fy_final_table.sql",
+    "rpt_dashboard_dim_combination": "XXXX\\rpt_dashboard\\dashboard_key_dim_combination_for_power_bi.sql",
+
+    "rpt_district_report": "XXXX\\rpt_district_reporting\\district_report.sql",
+    "rpt_district_report_activity_by_district_final": "XXXX\\rpt_district_reporting\\district_report_activity_by_district_final.sql",
+    "rpt_district_report_activity_monthly_final": "XXXX\\rpt_district_reporting\\district_report_activity_monthly_final.sql",
+    "rpt_district_report_activity_by_district_hed_final": "XXXX\\rpt_district_reporting\\district_report_activity_by_district_hed_final.sql",
+    "rpt_district_report_activity_monthly_hed_final": "XXXX\\rpt_district_reporting\\district_report_activity_monthly_hed_final.sql",
+    
+    "rpt_fullstroy_visitors_dashboard_final": "XXXX\\fullstory_data\\sql\\fullstory_process_visitor_segmentation_final.sql",
+
+    "rpt_user_sign_ups": "XXXX\\rpt_user_sign_ups\\user_sign_ups.sql",
+    
+    "hana_dim_date_load_fiscal_month": "XXXX\\sql\\hana_dim_date_load_fiscal_month.sql"
+}
